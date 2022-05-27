@@ -55,8 +55,9 @@ The median for both positions is way different. It appears the median for the sk
 
 ## Inferential Results
 ```{r}
-t.test(momheight~Sex,data=ucdavis1)
+t.test(pushups~position,data=mydata)
 ```
+Our p-value is 0.000009421. Our df value is 27.079. Our t value is -5.4341. Our alternative hypothesis ia shown. It states 'true differences in means between group LINE and group skills is not equal to 0. Our sample estimates are: mean in group LINE is 17.12500; mean in group SKILL is 49.72 If our null hypothesis is true,  the p value is the probability of getting our results. LINE vs SKILL. It is very rare. The p-value is so small we reject (ignore) the null hypothesis. If it's greater than .05, you failed to reject the null hypothesis (that's bad). If i reject the null hypothesis, I am 95% sure the SKILL group can do more push-ups. 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
